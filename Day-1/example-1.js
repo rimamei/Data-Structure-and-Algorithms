@@ -1,3 +1,5 @@
+// O(n)
+
 const shoes = ["shoes"];
 const brand = [
   "adidas",
@@ -19,7 +21,7 @@ const large = new Array(100000).fill('shoes')
 function findShoes(array) {
   let t0 = performance.now();
   for (let i = 0; i < array.length; i++) {
-    if (array[i] === "shoes") {
+    if (array[i] === "shoes") { 
       console.log("Found the shoes!");
     }
   }
