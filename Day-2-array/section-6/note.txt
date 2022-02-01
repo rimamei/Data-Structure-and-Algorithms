@@ -1,3 +1,4 @@
+search O(n)
 lookup O(1)
 push 0(1)
 insert O(n)
